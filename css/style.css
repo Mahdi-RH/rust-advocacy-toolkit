@@ -91,3 +91,19 @@
   width: 240px;
   height: auto;
 }
+
+.reveal .slides section {
+  text-align: left;         /* Align text to the left */
+  text-justify: inter-word; /* Optional: space between words for full justification */
+}
+
+ul li.fragment {
+  padding-top: 10px; /* Space above bullet points */
+  margin-bottom: 10px; /* Space between bullet points */
+}
+
+ul p.fragment {
+  margin-top: 1px;
+  margin-bottom: 1px; /* Reduce spacing around links */
+}
+
